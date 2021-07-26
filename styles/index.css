@@ -1,0 +1,26 @@
+@import url(vendor/normalize.css);
+/* Стили страницы */
+@import url(blocks/page/page.css);
+/* Стили для коррекции "размеров блоков" (отступов) */
+@import url(blocks/page/__block/page__block.css);
+@import url(blocks/page/__block/_size/page__block_size_max.css);
+@import url(blocks/page/__block/_size/page__block_size_middle.css);
+@import url(blocks/page/__block/_size/page__block_size_small.css);
+/* Стили блока header */
+@import url(blocks/header/header.css);
+@import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__links/header__links.css);
+@import url(blocks/header/__link/header__link.css);
+@import url(blocks/header/__link/_active/header__link_active.css);
+/* Стили блока основное содержимое */
+@import url(blocks/content/content.css);
+/* Стили блока блок лид*/
+@import url(blocks/lead/lead.css);
+/* Стили блока блок интро */
+@import url(blocks/intro/intro.css);
+/* стили для галереи */
+@import url(blocks/gallery/gallery.css);
+/* стили для блока places (картинки с описанием)  */
+@import url(blocks/places/places.css);
+/* стили для блока cover */
+@import url(blocks/cover/cover.css);
