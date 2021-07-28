@@ -24,3 +24,12 @@
   font-weight: 600;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Inter';
+  src:
+  url(Inter-Black.woff) format('woof'),
+  url(Inter-Black.woff2) format('woof2');
+  font-weight: 900;
+  font-style: normal;
+}
