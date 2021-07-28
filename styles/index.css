@@ -26,8 +26,14 @@
 /* Стили блока блок интро */
 @import url(blocks/intro/intro.css);
 @import url(blocks/intro/__title/intro__title.css);
+@import url(blocks/intro/__text/intro__text.css);
+@import url(blocks/intro/__list/intro__list.css);
+@import url(blocks/intro/__list-item/intro__list-item.css);
+/* использовать, если я не придумала себе жирный текст в блоке */
+@import url(blocks/intro/__list-item/_style/intro__list-item_style_bold.css);
 /* стили для галереи */
 @import url(blocks/gallery/gallery.css);
+@import url(blocks/gallery/__item/gallery__item.css);
 /* стили для блока places (картинки с описанием)  */
 @import url(blocks/places/places.css);
 /* стили для блока cover */
