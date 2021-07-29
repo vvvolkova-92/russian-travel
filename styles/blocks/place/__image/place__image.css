@@ -1,0 +1,7 @@
+.place__image {
+  margin-top: 32px;
+  grid-area: image;
+  max-width: 320px;
+}
+/* использовать для самого большого 
+max-width: 460px; */

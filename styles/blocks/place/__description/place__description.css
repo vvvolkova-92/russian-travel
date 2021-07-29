@@ -1,0 +1,5 @@
+.place__description {
+  padding: 0 16px 0 16px;
+  margin-top: 32px;
+  grid-area: text;
+}

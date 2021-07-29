@@ -1,0 +1,8 @@
+.place {
+  /*  использовать для медиазапросов
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 152px 440px;
+  grid-template-areas: "title website" "image text";
+  gap: 48px 40px;
+  box-sizing: border-box; */
+}
