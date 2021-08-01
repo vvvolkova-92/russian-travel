@@ -48,3 +48,17 @@
 @import url(blocks/place/__text/place__text.css);
 /* стили для блока cover */
 @import url(blocks/cover/cover.css);
+@import url(blocks/cover/__container/cover__container.css);
+@import url(blocks/cover/__image/cover__image.css); 
+@import url(blocks/cover/__overlay/cover__overlay.css);
+@import url(blocks/cover/__link/cover__link.css);
+@import url(blocks/cover/__title/cover__title.css);
+@import url(blocks/cover/__subtitle/cover__subtitle.css);
+/* стили для футера */
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer/__menu/footer__menu.css);
+@import url(blocks/footer/__menu-items/footer__menu-items.css);
+@import url(blocks/footer/__menu-item/footer__menu-item.css);
+@import url(blocks/footer/__menu-link/footer__menu-link.css);
+@import url(blocks/footer/__copyright/footer__copyright.css);
+
