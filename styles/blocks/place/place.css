@@ -1,8 +1,14 @@
 .place {
-  /*  использовать для медиазапросов
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 152px 440px;
-  grid-template-areas: "title website" "image text";
-  gap: 48px 40px;
-  box-sizing: border-box; */
+
+}
+
+@media (min-width : 768px) {
+  .place  {
+    display: grid;
+    grid-template-areas: "title website" "image text";
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 92px minmax(min-content, max-content);
+    gap: 48px 28px;
+  }
 }

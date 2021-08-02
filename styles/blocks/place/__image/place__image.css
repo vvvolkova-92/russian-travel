@@ -6,3 +6,9 @@
 }
 /* использовать для самого большого 
 max-width: 460px; */
+@media (min-width : 768px) {
+  .place__image  {
+    margin-top: 0px;
+    min-width: 340px;
+  }
+}

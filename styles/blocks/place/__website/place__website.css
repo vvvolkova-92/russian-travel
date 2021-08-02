@@ -3,6 +3,12 @@
   /* для медиазапросов
   align-self: end; */
   list-style-type: none;
-  padding: 0;
+  margin: 0;
   padding: 32px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .place__website {
+    padding-top: 0;
+  }
 }

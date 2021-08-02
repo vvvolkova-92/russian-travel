@@ -1,3 +1,15 @@
 .intro {
   padding-top: 64px;
 }
+
+@media (min-width : 520px) {
+  .intro {
+    padding-top: 76px;
+  }  
+}
+
+@media (min-width : 768px) {
+  .intro {
+    padding-top: 88px;
+  }  
+}
