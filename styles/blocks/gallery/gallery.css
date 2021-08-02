@@ -1,6 +1,19 @@
 .gallery {
-  padding: 64px 16px 0 16px;
+  padding-top: 64px;
   display: grid;
   row-gap: 12px;
   grid-template-columns: repeat(auto-fill, minmax(288px, 352px));
+}
+
+@media (min-width: 385px) {
+  .gallery {
+    row-gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 500px));
+  }
+}
+
+@media (min-width: 540px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 250px));
+  }
 }

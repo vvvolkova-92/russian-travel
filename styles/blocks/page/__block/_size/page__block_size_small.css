@@ -1,0 +1,9 @@
+.page__block_size_small {
+  margin: 0 16px 0 16px;
+}
+
+@media (min-width : 384px) {
+  .page__block_size_small {
+    margin: 0 20px 0 20px;
+  }
+}
