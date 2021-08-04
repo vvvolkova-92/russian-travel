@@ -3,6 +3,7 @@
 }
 .cover:hover .cover__overlay {
   opacity: .8;
+  transition: opacity .8s ease-in-out;
 }
 
 @media (min-width: 768px) {
