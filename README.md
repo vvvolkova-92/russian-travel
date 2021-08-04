@@ -9,4 +9,9 @@
 ![скрин макета](/images/readme2.jpg)
 + Присутствуют и используются по назначению элементы header, main, footer, section, nav, article.
 + Все ссылки и интерактивные элементы имеют состояние наведения :hover
+<<<<<<< HEAD
 ## [Ссылка на GITHUB Pages](https://saiviolet.github.io/russian-travel/index.html)
+=======
+## [Ссылка на GITHUB Pages] (https://saiviolet.github.io/russian-travel/index.html)
+
+>>>>>>> f5a3260290336c71ab7a0265f406a4b5fbf5b718
