@@ -2,8 +2,16 @@
   min-height: 248px;
   padding: 0;
   margin: 0;
-  list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer__menu-items {
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 0;
+    flex-basis: 465px;
+  }
 }

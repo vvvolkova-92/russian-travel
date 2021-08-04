@@ -9,3 +9,9 @@
 .place__text:last-of-type {
   margin: 0;
 }
+
+@media (min-width : 1024px) {
+  .place__text  {
+    font-size: 18px;
+  }
+}

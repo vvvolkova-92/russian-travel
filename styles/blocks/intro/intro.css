@@ -13,3 +13,9 @@
     padding-top: 88px;
   }  
 }
+
+@media (min-width : 1024px) {
+  .intro {
+    padding-top: 92px;
+  }  
+}

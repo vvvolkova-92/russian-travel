@@ -8,7 +8,21 @@
     grid-template-areas: "title website" "image text";
     /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: 340px 352px;
-    grid-template-rows: 92px minmax(min-content, max-content);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
     gap: 48px 28px;
+  }
+}
+
+@media (min-width : 1024px) {
+  .place  {
+    grid-template-columns: 440px 456px;
+    gap: 48px 32px;
+  }
+}
+
+@media (min-width : 1280px) {
+  .place  {
+    grid-template-columns: 460px 484px;
+    gap: 48px 40px;
   }
 }

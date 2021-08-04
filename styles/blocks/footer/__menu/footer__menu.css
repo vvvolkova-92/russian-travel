@@ -1,3 +1,10 @@
 .footer__menu {
-margin-top: 64px;
+
 }
+
+@media (min-width: 768px) {
+  .footer__menu {
+    flex-basis: 465px;
+  }
+  }
+

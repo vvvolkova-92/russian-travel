@@ -1,10 +1,31 @@
 .page__block_size_middle {
+  box-sizing: content-box;
+}
 
+@media (min-width : 520px) {
+  .page__block_size_middle {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
 }
 
 @media (min-width : 768px) {
-  .page__block_size_middle  {
+  .page__block_size_middle {
     margin-left: 24px;
     margin-right: 24px;
+  }
+}
+
+@media (min-width : 1024px) {
+  .page__block_size_middle {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (min-width : 1280px) {
+  .page__block_size_middle {
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }

@@ -14,3 +14,12 @@
     line-height: 46px;
   }
 }
+
+@media (min-width : 1024px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+

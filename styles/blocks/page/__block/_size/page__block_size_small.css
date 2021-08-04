@@ -4,6 +4,21 @@
 
 @media (min-width : 384px) {
   .page__block_size_small {
-    margin: 0 20px 0 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width : 1024px) {
+  .page__block_size_small {
+    margin-left: 48px;
+    margin-right: 286px;
+  }
+}
+
+@media (min-width : 1280px) {
+  .page__block_size_small {
+    margin-left: 148px;
+    margin-right: 442px;
   }
 }

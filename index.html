@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -18,12 +19,12 @@
       <li class="header__links"><a href="#" class="header__link ">EN</a></li>
     </ul>
   </header>
-  <main class="content">
+  <main>
     <!-- блок картинка и текст -->
     <section class="lead page__block page__block_size_middle">
-      <h1 class="lead__title lead__indent">Путешествия
+      <h1 class="lead__title">Путешествия
         по&nbsp;России</h1>
-      <p class="lead__subtitle lead__indent">Настоящая страна не&nbsp;в&nbsp;выпусках новостей,&nbsp;а&nbsp;здесь.</p>
+      <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей,&nbsp;а&nbsp;здесь.</p>
       <img src="images/lead_plackart.jpeg" alt="Вагон поезда" class="lead__image">
       <p class="lead__caption lead__indent">ваша полка — верхняя</p>
     </section>
@@ -40,7 +41,7 @@
       </ul>
     </section>
     <!-- блог с галереей фото -->
-    <section class="gallery page__block page__block_size_max">
+    <div class="gallery page__block page__block_size_max">
       <img src="images/gallery_img/01_grid_train.jpg" alt="Вид из окна поезда" class="gallery__item">
       <img src="images/gallery_img/02_grid_mountains.jpg" alt="Облака и горы" class="gallery__item">
       <img src="images/gallery_img/03_grid_field.jpg" alt="Потрясающее поле" class="gallery__item">
@@ -53,9 +54,9 @@
       <img src="images/gallery_img/10_grid_mountains3.jpg" alt="Вид на горы" class="gallery__item">
       <img src="images/gallery_img/11_grid_coast2.jpg" alt="Побережье" class="gallery__item">
       <img src="images/gallery_img/12_grid_clouds2.jpg" alt="Горы в дымке" class="gallery__item">
-    </section>
+    </div>
     <!-- блок с карточками мест -->
-    <section class="places page__block page__block_size_middle">
+    <div class="places page__block page__block_size_middle">
       <!-- Куршская коса -->
       <article class="place">
         <h2 class="place__title place__indent">Куршская коса</h2>
@@ -121,23 +122,12 @@
           <p class="place__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
       </article>
-    </section>
-
-    <!-- <section class="cover page__block page__block_size_max">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-          <div class="cover__image">
-            <div class="cover__overlay"></div>
-            <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          </div>
-      </a>
-    </section> -->
+    </div>
     <section class="cover">
       <div class="cover__container">
-          <div class="cover__overlay"></div>
-          <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        </div>
+        <div class="cover__overlay"></div>
+        <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </div>
     </section>
   </main>

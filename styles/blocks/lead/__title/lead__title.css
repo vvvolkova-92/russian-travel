@@ -1,5 +1,5 @@
 .lead__title {
-  margin: 0;
+  margin: 0 auto;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-@media (min-width : 520px) {
+@media (min-width : 490px) {
   .lead__title {
     font-size: 64px;
     line-height: 67px;

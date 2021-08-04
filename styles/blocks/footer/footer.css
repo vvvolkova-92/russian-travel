@@ -1,6 +1,22 @@
 .footer {
+  padding-top: 64px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 398px;
+  min-height: 334px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 78px;
+    padding-bottom: 24px;
+    flex-direction: row;
+    min-height: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 92px;
+  }
 }

@@ -2,22 +2,32 @@
   padding-top: 64px;
   display: grid;
   row-gap: 12px;
-  grid-template-columns: 1fr;
-  /* grid-template-columns: repeat(auto-fill, minmax(288px, 500px)); */
+  grid-template-columns: repeat(auto-fill, minmax(284px, max-content));
 }
 
 @media (min-width: 520px) {
   .gallery {
     padding-top: 76px;
     gap: 14px;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 768px) {
   .gallery {
     padding-top: 88px;
-    /* grid-template-columns: repeat(auto-fill, minmax(130px, 250px)); */
     gap: 24px 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    padding-top: 92px;
+    gap: 14px 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .gallery {
+    gap: 16px 16px;
   }
 }

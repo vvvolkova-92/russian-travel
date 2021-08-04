@@ -1,5 +1,4 @@
 .cover__title {
-  /* width: 288px; */
   margin: 0;
   font-style: normal;
   font-weight: 900;
@@ -25,6 +24,7 @@
 
 @media (min-width: 768px) {
   .cover__title {
+    max-width: 560px;
     font-size: 72px;
     line-height: 76px;
   }

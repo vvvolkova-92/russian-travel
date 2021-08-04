@@ -28,3 +28,9 @@
     min-height: 480px;
   }
 }
+
+@media (min-width: 1024px) {
+  .cover__container {
+    min-height: 640px;
+  }
+}

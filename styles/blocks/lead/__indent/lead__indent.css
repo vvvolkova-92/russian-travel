@@ -19,3 +19,9 @@
     margin: 0 24px;
   }
 }
+
+@media (min-width : 768px) {
+  .lead__indent {
+    margin: 0 24px;
+  }
+}
