@@ -7,16 +7,20 @@
 }
 
 @media (min-width : 552px) {
+
   .intro__title {
     font-size: 41px;
     line-height: 44px;
   }  
+
 }
 
 @media (min-width : 768px) {
+
   .intro__title {
     font-size: 54px;
     line-height: 58px;
   }  
+  
 }
 

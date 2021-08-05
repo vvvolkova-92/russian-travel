@@ -7,15 +7,19 @@
 }
 
 @media (min-width : 520px) {
+
   .header__logo {
     width: 156px;
     height: 46px;
   }  
+
 }
 
 @media (min-width : 768px) {
+
   .header__logo {
     width: 176px;
     height: 52px;
-  }  
+  }
+    
 }

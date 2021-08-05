@@ -6,28 +6,36 @@
 }
 
 @media (min-width: 520px) {
+
   .gallery {
     padding-top: 76px;
     gap: 14px;
   }
+
 }
 
 @media (min-width: 768px) {
+
   .gallery {
     padding-top: 88px;
     gap: 16px 16px;
   }
+
 }
 
 @media (min-width: 1024px) {
+
   .gallery {
     padding-top: 92px;
     gap: 14px 14px;
   }
+
 }
 
 @media (min-width: 1280px) {
+
   .gallery {
     gap: 16px 16px;
   }
+  
 }

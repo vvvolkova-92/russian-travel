@@ -9,23 +9,29 @@
 }
 
 @media (min-width: 415px) {
+
   .cover__title {
     font-size: 40px;
     line-height: 42px;
   }
+
 }
 
 @media (min-width: 520px) {
+
   .cover__title {
     font-size: 59px;
     line-height: 63px;
   }
+
 }
 
 @media (min-width: 768px) {
+
   .cover__title {
     max-width: 560px;
     font-size: 72px;
     line-height: 76px;
   }
+  
 }
