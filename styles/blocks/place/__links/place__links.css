@@ -1,3 +1,11 @@
-.place__links {
+/* .place__links {
   margin-top: 12px;
 }
+
+@media (min-width: 768px) {
+
+  .place__links {
+    margin-top: 0;
+  }
+  
+} */

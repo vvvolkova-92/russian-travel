@@ -18,11 +18,10 @@
 
 @media (min-width: 768px) {
   .cover__subtitle {
-    margin-top: 32px;
+    margin: 32px 0 0 0;
     font-size: 18px;
     line-height: 22px;
-    min-width: 360px;
-    text-align: none;
+    min-width: 366px;
   }
 }
 

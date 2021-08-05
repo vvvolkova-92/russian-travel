@@ -12,25 +12,41 @@
 }
 
 @media (min-width: 415px) {
+
   .cover__container  {
     min-height: 300px;
   }
+
 }
 
 @media (min-width: 520px) {
+
   .cover__container {
     min-height: 395px;
   }
+
 }
 
 @media (min-width: 768px) {
+
   .cover__container {
     min-height: 480px;
   }
+
 }
 
 @media (min-width: 1024px) {
+
   .cover__container {
     min-height: 640px;
   }
+
+}
+
+@media (min-width: 1280px) {
+
+  .cover__container {
+    min-height: 740px;
+  }
+  
 }

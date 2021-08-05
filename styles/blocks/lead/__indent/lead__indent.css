@@ -3,25 +3,25 @@
 }
 
 @media (min-width : 384px) {
+
   .lead__indent {
     margin: 0 20px;
   }
-}
 
-@media (min-width : 520px) {
-  .lead__indent {
-    margin: 0 22px;
-  }
 }
 
 @media (min-width : 768px) {
+
   .lead__indent {
     margin: 0 24px;
   }
+
 }
 
-@media (min-width : 768px) {
+@media (min-width : 1024px) {
+
   .lead__indent {
-    margin: 0 24px;
+    margin: 0;
   }
+
 }

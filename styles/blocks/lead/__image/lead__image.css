@@ -4,13 +4,25 @@
 }
 
 @media (min-width : 520px) {
-  .lead__subtitle {
+
+  .lead__image {
     padding-top: 48px;
   }  
+
 }
 
 @media (min-width : 768px) {
-  .lead__subtitle {
+
+  .lead__image {
     padding-top: 56px;
   }  
+
+}
+
+@media (min-width : 1280px) {
+
+  .lead__image {
+    padding-top: 64px;
+  }  
+  
 }

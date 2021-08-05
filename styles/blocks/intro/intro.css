@@ -1,5 +1,6 @@
 .intro {
   padding-top: 64px;
+  max-width: 690px;
 }
 
 @media (min-width : 520px) {

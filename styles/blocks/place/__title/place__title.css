@@ -1,5 +1,5 @@
 .place__title {
-  margin: 0;
+  margin: 0 16px;
   grid-area: title;
   /* стиль для текста */
   font-style: normal;
@@ -8,18 +8,39 @@
   line-height: 35px;
 }
 
+@media (min-width : 384px) {
+
+  .place__title {
+    margin: 0 20px;
+  }
+
+}
+
+@media (min-width : 520px) {
+
+  .place__title {
+    margin: 0;
+  }
+  
+}
+
 @media (min-width : 768px) {
+
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    max-width: 330px;
   }
+  
 }
 
 @media (min-width : 1024px) {
+
   .place__title {
     font-size: 72px;
     line-height: 76px;
   }
+
 }
 
 

@@ -5,23 +5,23 @@
   min-width: 320px;
 }
 
-/* использовать для самого большого 
-max-width: 460px; */
 @media (min-width : 768px) {
+
   .place__image  {
     margin-top: 0px;
-    min-width: 340px;
+    max-width: 340px;
+
   }
 }
 
 @media (min-width : 1024px) {
   .place__image  {
-    min-width: 440px;
+    max-width: 440px;
   }
 }
 
 @media (min-width : 1280px) {
   .place__image  {
-    min-width: 460px;
+    max-width: 460px;
   }
 }

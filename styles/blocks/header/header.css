@@ -2,15 +2,29 @@
   padding-top: 16px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 @media (min-width : 384px) {
+
   .header {
-    padding-top: 22px; }  
+    padding-top: 22px; 
+  }  
+
 }
 
 @media (min-width : 520px) {
+
   .header {
-    padding-top: 25px; }  
+    padding-top: 25px; 
+  }  
+
+}
+
+@media (min-width : 768px) {
+
+  .header {
+    padding-top: 28px; 
+  } 
+  
 }
