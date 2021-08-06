@@ -1,12 +1,13 @@
 .intro {
   padding-top: 64px;
-  max-width: 690px;
+  max-width: 288px;
 }
 
 @media (min-width : 520px) {
 
   .intro {
     padding-top: 76px;
+    max-width: 488px;
   }  
 
 }
@@ -15,6 +16,7 @@
 
   .intro {
     padding-top: 88px;
+    max-width: 729px;
   }  
 
 }
@@ -23,6 +25,7 @@
 
   .intro {
     padding-top: 92px;
+    max-width: 690px;
   }  
-  
+
 }

@@ -1,28 +1,9 @@
 .page__block_size_small {
-  margin: 0 16px 0 16px;
-}
-
-@media (min-width : 768px) {
-
-  .page__block_size_small {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-
+  margin: 0 auto;
 }
 
 @media (min-width : 1024px) {
-
   .page__block_size_small {
-    margin-left: 48px;
+    padding-right: 238px;
   }
-
-}
-
-@media (min-width : 1280px) {
-
-  .page__block_size_small {
-    margin-left: 148px;
-  }
-
 }
