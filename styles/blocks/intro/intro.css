@@ -1,13 +1,14 @@
 .intro {
   padding-top: 64px;
-  max-width: 288px;
+  max-width: calc(100% - 32px);
 }
+
 
 @media (min-width : 520px) {
 
   .intro {
     padding-top: 76px;
-    max-width: 488px;
+    max-width: calc(100% - 40px);
   }  
 
 }
@@ -16,7 +17,7 @@
 
   .intro {
     padding-top: 88px;
-    max-width: 729px;
+    max-width: calc(100% - 48px);
   }  
 
 }
@@ -25,7 +26,16 @@
 
   .intro {
     padding-top: 92px;
-    max-width: 690px;
+    max-width: 928px;
+  }  
+
+}
+
+@media (min-width : 1280px) {
+
+  .intro {
+    padding-top: 92px;
+    max-width: 984px;
   }  
 
 }
