@@ -15,7 +15,7 @@
   }
 }
 
-.headerLogo {
+.header__logo {
   width: 142px;
   height: 42px;
   background-image: url("../../images/logo.svg");
@@ -31,3 +31,23 @@
     height: 52px;
   }
 }
+
+.header__buttons {
+  display: flex;
+  list-style-type: none;
+}
+
+.header__link {
+  margin-left: 18px;
+  opacity: .7;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &_active {
+    text-decoration-line: underline;
+    opacity: 1;
+  }
+}
+

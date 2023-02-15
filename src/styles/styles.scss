@@ -9,3 +9,40 @@ body {
   margin: 0 auto;
   min-width: 320px;
 }
+
+.page__block_size_small {
+  margin: 0 auto;
+}
+
+.page__block_size_middle {
+  box-sizing: content-box;
+
+  @media (min-width : $width-m) {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  @media (min-width : $width-l) {
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width : $width-xl) {
+    margin: 0 auto;
+  }
+}
+
+.page__block_size_max {
+  margin: 0 16px;
+
+  @media (min-width : $width-xs) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media (min-width : $width-l) {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  @media (min-width : $width-xxl) {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}

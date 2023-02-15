@@ -7,6 +7,38 @@
   align-items: $align;
   justify-content: $justify;
 }
+// ссылки
+@mixin link($type: a) {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font: $font-size-xs;
+  color: $white;
+  opacity: $opacity-start;
+
+  @if $type == a {
+    text-decoration-line: underline;
+  }
+
+  @if $type == button {
+    all: unset;
+    cursor: pointer;
+  }
+
+  @media (min-width : $width-m) {
+    font: $font-size-m;
+  }
+
+  @media (min-width : $width-l) {
+    font: $font-size-l;
+  }
+
+  &:hover {
+    opacity: $opacity-finish;
+    transition: $animation;
+  }
+}
+
 //главный шрифт для h1
 @mixin main-text {
   margin: 0 auto;

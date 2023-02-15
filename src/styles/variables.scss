@@ -1,5 +1,9 @@
 //шрифт
-$font: 'Inter', Arial, sans-serif;
+$font: 'Inter', Arial;
+$font-size-xs: 18px/20px sans-serif;
+$font-size-s: 18px/22px sans-serif;
+$font-size-m: 22px/24px sans-serif;
+$font-size-l: 24px/28px sans-serif;
 // цвета
 $dark-grey: #2a2c2f;
 $white: #fff;
@@ -11,6 +15,10 @@ $width-xs: 384px;
 $width-s: 490px;
 $width-m: 520px;
 $width-l: 768px;
-//$width-m: 1024px;
-//$width-l: 1300px;
+$width-xl: 928px;
+$width-xxl: 1024px;
 //$width-xl: 1512px;
+//анимация
+$animation: opacity .8s ease-in-out;
+$opacity-start: 1;
+$opacity-finish: .5;
