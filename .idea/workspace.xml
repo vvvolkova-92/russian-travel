@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03639fea-62fb-4066-b5d4-d6eef0d66746" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cover_train.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/cover_train.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/01_grid_train.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/01_grid_train.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/02_grid_mountains.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/02_grid_mountains.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/03_grid_field.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/03_grid_field.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/04_grid_forest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/04_grid_forest.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/05_grid_ice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/05_grid_ice.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/06_grid_coast.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/06_grid_coast.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/07_grid_mountains2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/07_grid_mountains2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/08_grid_znak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/08_grid_znak.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/09_grid_clouds.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/09_grid_clouds.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/10_grid_mountains3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/10_grid_mountains3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/11_grid_coast2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/11_grid_coast2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery_img/12_grid_clouds2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery_img/12_grid_clouds2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lead_plackart.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/lead_plackart.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/place_img/place_altai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/place_img/place_altai.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/place_img/place_baikal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/place_img/place_baikal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/place_img/place_karelia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/place_img/place_karelia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/place_img/place_kolskiy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/place_img/place_kolskiy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/place_img/place_kosa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/place_img/place_kosa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/readme.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/readme.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/readme2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/readme2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/cover/cover.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/cover/cover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocks/header/__logo/header__logo.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LmC9MLIMlIIpNeSgochgRbq63g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/vio-ubuntu/pr/russian-travel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/vio-ubuntu/pr/russian-travel/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03639fea-62fb-4066-b5d4-d6eef0d66746" name="Changes" comment="" />
+      <created>1676466718144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676466718144</updated>
+      <workItem from="1676466719551" duration="2163000" />
+      <workItem from="1676469161238" duration="1523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

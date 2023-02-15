@@ -1,0 +1,33 @@
+@import "./src/styles/mixins.scss";
+
+.header {
+  padding-top: 16px;
+  @include flex(row, flex-end, space-between);
+
+  @media (min-width : $width-xs) {
+    padding-top: 22px;
+  }
+  @media (min-width : $width-m) {
+    padding-top: 25px;
+  }
+  @media (min-width : $width-l) {
+    padding-top: 28px;
+  }
+}
+
+.headerLogo {
+  width: 142px;
+  height: 42px;
+  background-image: url("../../images/logo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width : $width-m) {
+    width: 156px;
+    height: 46px;
+  }
+  @media (min-width : $width-l) {
+    width: 176px;
+    height: 52px;
+  }
+}

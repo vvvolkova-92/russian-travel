@@ -4,7 +4,7 @@
   /* flex-direction: column; */
   align-items: stretch;
   position: relative;
-  background-image: url(../../../images/cover_train.jpeg);
+  background-image: url(../../../src/images/cover_train.jpeg);
   min-height: 200px;
   background-size: cover;
   background-repeat: no-repeat;

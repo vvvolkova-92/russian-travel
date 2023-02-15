@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+body {
+  padding: 0;
+  background-color: $background-dark-theme;
+  font-family: $font;
+  color: $white;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-width: 320px;
+}
