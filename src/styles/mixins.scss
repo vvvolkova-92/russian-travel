@@ -38,25 +38,3 @@
     transition: $animation;
   }
 }
-
-//главный шрифт для h1
-@mixin main-text {
-  margin: 0 auto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 44px;
-  text-align: center;
-  color: $white;
-
-  @media (min-width : $width-s) {
-    font-size: 64px;
-    line-height: 67px;
-  }
-
-  @media (min-width : $width-l) {
-    font-size: 96px;
-    line-height: 100px;
-  }
-
-}
