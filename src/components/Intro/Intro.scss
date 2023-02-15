@@ -21,6 +21,36 @@
     padding-top: 92px;
     max-width: 984px;
   }
+
+  &__text {
+    padding-top: 40px;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+
+    @media (min-width : $width-xxl) {
+      max-width: 690px;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 34px 0 0 0;
+    margin: 0;
+  }
+
+  &__list-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  &__list-item-value {
+    font-weight: 700;
+  }
 }
 
 .intro__title {

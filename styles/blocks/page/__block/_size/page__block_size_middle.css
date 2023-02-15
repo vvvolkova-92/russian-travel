@@ -25,6 +25,7 @@
 
   .page__block_size_middle {
     margin: 0 auto;
+    padding: inherit;
   }
 
 }

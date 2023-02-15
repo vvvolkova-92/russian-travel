@@ -9,6 +9,7 @@
 }
 // ссылки
 @mixin link($type: a) {
+  transition: $animation;
   cursor: pointer;
   font-style: normal;
   font-weight: normal;
@@ -31,6 +32,16 @@
 
   @media (min-width : $width-l) {
     font: $font-size-l;
+  }
+
+  @if $type == buttonWithBorder {
+    all: unset;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid $white;
+    font-size: 18px;
+    transition: $animation;
   }
 
   &:hover {
