@@ -1,0 +1,133 @@
+@import "src/styles/variables";
+.card {
+  @media (min-width : $width-l) {
+    display: grid;
+    grid-template-areas: "title website" "image text";
+    grid-template-columns: repeat(auto-fill, minmax(340px, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 48px 28px;
+  }
+
+  @media (min-width : $width-xxl) {
+    gap: 48px 32px;
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+  }
+
+  @media (min-width : 1180px) {
+    grid-template-columns: minmax(440px, 460px) minmax(440px, max-content);
+    gap: 48px 37px;
+  }
+
+  @media (min-width : $width-xxxl) {
+    gap: 48px 40px;
+  }
+
+  &__description {
+    margin: 0 16px;
+    padding: 32px 0 0 0;
+    grid-area: text;
+
+    @media (min-width : $width-xs) {
+      margin: 0 20px;
+    }
+    @media (min-width : $width-m) {
+      margin: 0;
+    }
+    @media (min-width : $width-l) {
+      padding-top: 0;
+      margin: 0;
+    }
+  }
+
+  &__image {
+    margin-top: 32px;
+    grid-area: image;
+    max-width: 100%;
+    min-width: 320px;
+
+    @media (min-width : $width-l) {
+      margin-top: 0px;
+      max-width: 340px;
+    }
+    @media (min-width : $width-xxl) {
+      max-width: 440px;
+    }
+    @media (min-width : $width-xxxl) {
+      max-width: 460px;
+    }
+  }
+
+  &__link-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: $grey;
+    margin: 0 0 12px 0;
+  }
+
+  &__text {
+    margin: 0 0 25px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 484px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+    @media (min-width : $width-xxl) {
+      font-size: 18px;
+      line-height: 29px;
+    }
+  }
+
+  &__title {
+    margin: 0 16px;
+    grid-area: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+
+    @media (min-width : $width-xs) {
+      margin: 0 20px;
+    }
+    @media (min-width : $width-m) {
+      margin: 0;
+    }
+    @media (min-width : $width-l) {
+      font-size: 42px;
+      line-height: 46px;
+      max-width: 330px;
+    }
+    @media (min-width : $width-xxl) {
+      font-size: 62px;
+      line-height: 66px;
+    }
+  }
+
+  &__website {
+    margin: 0 16px;
+    grid-area: website;
+    list-style-type: none;
+    padding: 32px 0 0 0;
+
+    @media (min-width : $width-xs) {
+      margin: 0 20px;
+    }
+
+    @media (min-width : $width-m) {
+      margin: 0;
+    }
+
+    @media (min-width : $width-m) {
+      padding-top: 0;
+      align-self: end;
+    }
+  }
+
+}

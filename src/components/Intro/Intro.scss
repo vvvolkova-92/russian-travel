@@ -1,0 +1,74 @@
+@import "./src/styles/variables.scss";
+
+.intro {
+  padding-top: 64px;
+  max-width: calc(100% - 32px);
+
+  @media (min-width : $width-m) {
+    padding-top: 76px;
+    max-width: calc(100% - 40px);
+  }
+  @media (min-width : $width-m) {}
+  @media (min-width : $width-l) {
+    padding-top: 88px;
+    max-width: calc(100% - 48px);
+  }
+  @media (min-width : $width-xxl) {
+    padding-top: 92px;
+    max-width: 928px;
+  }
+  @media (min-width : $width-xxxl) {
+    padding-top: 92px;
+    max-width: 984px;
+  }
+
+  &__text {
+    padding-top: 40px;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+
+    @media (min-width : $width-xxl) {
+      max-width: 690px;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 34px 0 0 0;
+    margin: 0;
+  }
+
+  &__list-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  &__list-item-value {
+    font-weight: 700;
+  }
+}
+
+.intro__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+
+  @media (min-width : 552px) {
+    font-size: 41px;
+    line-height: 44px;
+  }
+
+  @media (min-width : $width-l) {
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 690px;
+  }
+
+}

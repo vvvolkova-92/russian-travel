@@ -1,0 +1,16 @@
+@import "./src/styles/mixins.scss";
+
+.link {
+  @include link(a);
+}
+.button {
+  @include link(button);
+}
+
+.buttonWithBorder {
+  @include link(buttonWithBorder);
+}
+
+.link_active {
+  text-decoration-line: underline;
+}

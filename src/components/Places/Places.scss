@@ -1,0 +1,20 @@
+@import "src/styles/variables";
+.places {
+  display: grid;
+  row-gap: 50px;
+  padding: 64px 0 0 0;
+
+  @media (min-width : $width-l) {
+    row-gap: 73px;
+    padding: 88px 24px 0 24px;
+    max-width: 720px;
+  }
+  @media (min-width : $width-xxl) {
+    row-gap: 80px;
+    padding: 92px 0 0 0;
+    max-width: 928px;
+  }
+  @media (min-width : $width-xxxl) {
+    max-width: 984px;
+  }
+}

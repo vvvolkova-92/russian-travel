@@ -1,0 +1,55 @@
+@import "./variables.scss";
+
+// миксин для флексов
+@mixin flex($direction: row, $align: center, $justify: center) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+// ссылки
+@mixin link($type: a) {
+  transition: $animation;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font: $font-size-xs;
+  color: $white;
+  opacity: $opacity-start;
+
+  @if $type == a {
+    text-decoration-line: underline;
+  }
+
+  @if $type == button {
+    all: unset;
+    cursor: pointer;
+  }
+
+  @media (min-width : $width-m) {
+    font: $font-size-m;
+  }
+
+  @media (min-width : $width-l) {
+    font: $font-size-l;
+  }
+
+  @if $type == buttonWithBorder {
+    all: unset;
+    padding: 15px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid var(--button-color);
+    font-size: 18px;
+    transition: $animation;
+
+    &:disabled {
+      opacity: $opacity-finish;
+    }
+  }
+
+  &:hover {
+    opacity: $opacity-finish;
+    transition: $animation;
+  }
+}

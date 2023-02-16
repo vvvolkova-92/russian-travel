@@ -1,0 +1,53 @@
+@import "./src/styles/mixins.scss";
+
+.header {
+  padding-top: 16px;
+  @include flex(row, center, space-between);
+
+  @media (min-width : $width-xs) {
+    padding-top: 22px;
+  }
+  @media (min-width : $width-m) {
+    padding-top: 25px;
+  }
+  @media (min-width : $width-l) {
+    padding-top: 28px;
+  }
+}
+
+.header__logo {
+  width: 150px;
+  height: 35px;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width : $width-m) {
+    width: 156px;
+    height: 36px;
+  }
+  @media (min-width : $width-l) {
+    width: 180px;
+    height: 42px;
+  }
+}
+
+.header__buttons {
+  display: flex;
+  list-style-type: none;
+}
+
+.header__link {
+  margin-left: 18px;
+  opacity: .7;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &_active {
+    text-decoration-line: underline;
+    opacity: 1;
+  }
+}
+
