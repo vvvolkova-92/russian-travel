@@ -7,23 +7,29 @@ import {Places} from "../Places/Places";
 import {Cover} from "../Cover/Cover";
 import {useEffect} from "react";
 import {Random} from "../Random/Random";
+import {themes} from "../../contexts/ThemeContext";
 
-
+// @ts-ignore
+export const ThemeContext = React.createContext();
 export const App = () => {
-  // useEffect(() => {
-  //
-  // },[])
+  const [ theme, setTheme ] = React.useState(themes.dark);
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    localStorage.setItem('theme', theme);
+  }, [ theme ]);
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <Lead />
-        <Random />
-        <Intro />
-        <Gallery />
-        <Places />
-        <Cover />
-      </main>
-    </div>
+    <ThemeContext.Provider value={[theme, setTheme]}>
+      <div className="App">
+        <Header />
+        <main>
+          <Lead />
+          <Random />
+          <Intro />
+          <Gallery />
+          <Places />
+          <Cover />
+        </main>
+      </div>
+    </ThemeContext.Provider >
   );
 }

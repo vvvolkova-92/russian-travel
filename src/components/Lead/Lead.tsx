@@ -1,7 +1,7 @@
 import * as React from "react";
 import './Lead.scss';
-import image from '../../images/lead_plackart.jpeg';
-export const Lead: React.FC<{  }> = () => {
+import image from '../../images/main.jpg';
+export const Lead: React.FC = () => {
   return (
     <section className="lead page__block page__block_size_middle">
       <h1 className="lead__title">Путешествия

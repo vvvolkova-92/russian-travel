@@ -1,5 +1,7 @@
 @import "src/styles/variables";
+@import "src/styles/mixins";
 .random {
+  @include flex(column, flex-start, center);
   padding-top: 64px;
   max-width: calc(100% - 32px);
 
@@ -41,16 +43,82 @@
   }
 
   &__text {
-    padding-top: 40px;
+    padding: 30px 0 20px;
     margin: 0;
+    align-self: end;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
-
+    text-align: right;
     @media (min-width : $width-xxl) {
       max-width: 690px;
     }
+  }
+
+  &__loader {
+    align-self: center;
+  }
+
+  &__cards {
+    padding: 30px 0 0 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+    grid-template-rown: 1fr;
+    gap: 10px;
+  }
+
+}
+
+.park-card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid $white;
+  width: 100%;
+  @include flex(column, flex-start, space-between);
+
+  &__title {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 163%;
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__location {
+    height: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__link-title {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: $grey;
+    padding: 10px 0 10px 0;
+  }
+
+  &__activity-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  &__activity-list-item {
+    color: $white;
   }
 
 }

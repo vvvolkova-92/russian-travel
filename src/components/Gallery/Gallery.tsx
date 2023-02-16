@@ -1,5 +1,4 @@
 import * as React from "react";
-import image from '../../images/gallery_img/01_grid_train.jpg';
 import "./Gallery.scss";
 export const Gallery: React.FC<{  }> = props => {
   return (
