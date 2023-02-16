@@ -1,8 +1,0 @@
-.header__links {
-  list-style-type: none;
-  margin-left: 18px;
-}
-
-.header__links:first-of-type {
-  margin-left: 0;
-}

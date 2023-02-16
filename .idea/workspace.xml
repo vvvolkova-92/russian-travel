@@ -5,21 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03639fea-62fb-4066-b5d4-d6eef0d66746" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contexts/ThemeContext.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/ThemeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/math.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Lead/Lead.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Lead/Lead.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Random/Random.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Random/Random.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Random/Random.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Random/Random.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Gallery/Gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallery/Gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Gallery/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallery/Gallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Places/Places.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Places/Places.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/ThemeContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/ThemeProvider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/place_img/place_altai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/place_img/place_baikal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/place_img/place_karelia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/place_img/place_kolskiy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/place_img/place_kosa.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Link/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Link/Link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/cover/__link/cover__link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/cover/__subtitle/cover__subtitle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/cover/__title/cover__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/cover/cover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/footer/__copyright/footer__copyright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/footer/__menu-item/footer__menu-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/footer/__menu-items/footer__menu-items.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/footer/__menu-link/footer__menu-link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/footer/__menu/footer__menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/footer/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/gallery/__item/gallery__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/gallery/gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/header/__lang/header__lang.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/header/__link/_active/header__link_active.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/header/__link/header__link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/header/__links/header__links.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/header/__logo/header__logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/header/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/intro/__list-item-value/intro__list-item-value.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/intro/__list-item/intro__list-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/intro/__list/intro__list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/intro/__text/intro__text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/intro/__title/intro__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/intro/intro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/lead/__caption/lead__caption.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/lead/__image/lead__image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/lead/__subtitle/lead__subtitle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/lead/__title/lead__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/lead/lead.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/page/__block/_size/page__block_size_max.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/page/__block/_size/page__block_size_middle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/page/__block/_size/page__block_size_small.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/page/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/__description/place__description.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/__image/place__image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/__link-title/place__link-title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/__link/place__link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/__text/place__text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/__title/place__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/__website/place__website.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/place/place.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/blocks/places/places.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/fonts/Inter-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/fonts/Inter-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/fonts/Inter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/fonts/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vendor/normalize.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +90,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2LmC9MLIMlIIpNeSgochgRbq63g" />
   <component name="ProjectViewState">
@@ -75,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676466718144</updated>
       <workItem from="1676466719551" duration="2163000" />
-      <workItem from="1676469161238" duration="57383000" />
+      <workItem from="1676469161238" duration="63223000" />
     </task>
     <servers />
   </component>

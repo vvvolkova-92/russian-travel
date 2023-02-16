@@ -1,5 +1,3 @@
-import * as React from "react";
-
 interface IThemes<T> {
   dark: T;
   light: T;
