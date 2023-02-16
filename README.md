@@ -7,7 +7,8 @@
 + Не использовала CRA, вместо него сделала "свою сборку" при помощи сборщика **ParselJS**
 + Реализованы темная и светлая темы при помощи **React Context** и CSS-переменных
 + Использован **Axios** для взаимодействия с порталом открытых данных правительства Москвы (зачем? просто захотелось попробовать этот API)
-  ![Ссылка на GITHUB Pages](https://saiviolet.github.io/russian-travel/)
+
+[Ссылка на GITHUB Pages](https://saiviolet.github.io/russian-travel/)
   
 Стек: TypeScript, SCSS, React.
 
