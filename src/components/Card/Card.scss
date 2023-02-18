@@ -115,6 +115,7 @@
     grid-area: website;
     list-style-type: none;
     padding: 32px 0 0 0;
+    color: var(--text-color);
 
     @media (min-width : $width-xs) {
       margin: 0 20px;

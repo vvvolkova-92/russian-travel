@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: normal;
   font: $font-size-xs;
-  color: $white;
+  color: $grey;
   opacity: $opacity-start;
 
   @if $type == a {
