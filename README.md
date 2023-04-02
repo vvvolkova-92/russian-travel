@@ -9,7 +9,7 @@
 + Реализованы темная и светлая темы при помощи **React Context** и CSS-переменных
 + Использован **Axios** для взаимодействия с порталом открытых данных правительства Москвы (зачем? просто захотелось попробовать этот API)
 
-[Ссылка на GITHUB Pages](https://saiviolet.github.io/russian-travel/)
+[Ссылка на GITHUB Pages](https://vvvolkova-92.github.io/russian-travel)
   
 Стек: TypeScript, SCSS, React.
 
@@ -24,4 +24,3 @@
   ![скрин макета](/src/images/readme2.jpg)
 + Присутствуют и используются по назначению элементы header, main, footer, section, nav, article.
 + Все ссылки и интерактивные элементы имеют состояние наведения :hover
-## [Ссылка на GITHUB Pages](https://vvvolkova-92.github.io/russian-travel/index.html)
