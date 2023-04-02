@@ -1,7 +1,8 @@
 {
-  "name": "empty-project",
+  "name": "Путешествие по России",
   "version": "1.0.0",
   "description": "![Немного главной страницы](/images/readme.jpg)",
+  "homepage": "https://vvvolkova-92.github.io/russian-travel/",
   "main": "index.js",
   "keywords": [],
   "author": "",
@@ -35,6 +36,5 @@
   },
   "bugs": {
     "url": "https://github.com/saiviolet/russian-travel/issues"
-  },
-  "homepage": "https://saiviolet.github.io/russian-travel"
+  }
 }
