@@ -13,39 +13,39 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"react":"n8MK","./Header.scss":"X8Um","../../ui/Link/Link":"Exfk","../../contexts/ThemeContext":"Bx8l","../App/App":"IbEZ"}],"us07":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Intro=void 0;var e=r(require("react"));function t(e){if("function"!=typeof WeakMap)return null;var r=new WeakMap,a=new WeakMap;return(t=function(e){return e?a:r})(e)}function r(e,r){if(!r&&e&&e.__esModule)return e;if(null===e||"object"!=typeof e&&"function"!=typeof e)return{default:e};var a=t(r);if(a&&a.has(e))return a.get(e);var l={},n=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var i in e)if("default"!==i&&Object.prototype.hasOwnProperty.call(e,i)){var s=n?Object.getOwnPropertyDescriptor(e,i):null;s&&(s.get||s.set)?Object.defineProperty(l,i,s):l[i]=e[i]}return l.default=e,a&&a.set(e,l),l}require("./Intro.scss");var a=function(){return e.createElement("section",{className:"intro page__block page__block_size_small"},e.createElement("h2",{className:"intro__title"},"Чего мы там не видели?"),e.createElement("p",{className:"intro__text"},"По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска."),e.createElement("ul",{className:"intro__list"},e.createElement("li",{className:"intro__list-item"},e.createElement("span",{className:"intro__list-item-value"},"Часовых поясов "),"11"),e.createElement("li",{className:"intro__list-item"},e.createElement("span",{className:"intro__list-item-value"},"Объектов природного наследия ЮНЕСКО "),"12"),e.createElement("li",{className:"intro__list-item"},e.createElement("span",{className:"intro__list-item-value"},"Объектов культурного наследия ЮНЕСКО "),"16"),e.createElement("li",{className:"intro__list-item"},e.createElement("span",{className:"intro__list-item-value"},"Природных заповедников "),"105"),e.createElement("li",{className:"intro__list-item"},e.createElement("span",{className:"intro__list-item-value"},"Аэропортов "),"241")))};exports.Intro=a;
 },{"react":"n8MK","./Intro.scss":"X8Um"}],"NRMA":[function(require,module,exports) {
-module.exports="/main.72e055e5.jpg";
+module.exports="main.72e055e5.jpg";
 },{}],"S8oG":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Lead=void 0;var e=n(require("react"));require("./Lead.scss");var t=r(require("../../images/main.jpg"));function r(e){return e&&e.__esModule?e:{default:e}}function a(e){if("function"!=typeof WeakMap)return null;var t=new WeakMap,r=new WeakMap;return(a=function(e){return e?r:t})(e)}function n(e,t){if(!t&&e&&e.__esModule)return e;if(null===e||"object"!=typeof e&&"function"!=typeof e)return{default:e};var r=a(t);if(r&&r.has(e))return r.get(e);var n={},l=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var c in e)if("default"!==c&&Object.prototype.hasOwnProperty.call(e,c)){var i=l?Object.getOwnPropertyDescriptor(e,c):null;i&&(i.get||i.set)?Object.defineProperty(n,c,i):n[c]=e[c]}return n.default=e,r&&r.set(e,n),n}var l=function(){return e.createElement("section",{className:"lead page__block page__block_size_middle"},e.createElement("h1",{className:"lead__title"},"Путешествия по России"),e.createElement("p",{className:"lead__subtitle"},"Настоящая страна не в выпусках новостей, а здесь."),e.createElement("img",{src:t.default,alt:"Вагон поезда",className:"lead__image"}),e.createElement("p",{className:"lead__caption"},"ваша полка — верхняя"))};exports.Lead=l;
 },{"react":"n8MK","./Lead.scss":"X8Um","../../images/main.jpg":"NRMA"}],"iwj1":[function(require,module,exports) {
-module.exports="/01.a1278b74.jpg";
+module.exports="01.a1278b74.jpg";
 },{}],"O0hk":[function(require,module,exports) {
-module.exports="/02.c2b8133a.jpg";
+module.exports="02.c2b8133a.jpg";
 },{}],"UkSw":[function(require,module,exports) {
-module.exports="/03.aa13b147.jpg";
+module.exports="03.aa13b147.jpg";
 },{}],"eMnO":[function(require,module,exports) {
-module.exports="/04.a11c5018.jpg";
+module.exports="04.a11c5018.jpg";
 },{}],"YouM":[function(require,module,exports) {
-module.exports="/05.eba0e536.jpg";
+module.exports="05.eba0e536.jpg";
 },{}],"h7dX":[function(require,module,exports) {
-module.exports="/06.3f5e6746.jpg";
+module.exports="06.3f5e6746.jpg";
 },{}],"WfO4":[function(require,module,exports) {
-module.exports="/07.98bceca7.jpg";
+module.exports="07.98bceca7.jpg";
 },{}],"Gdzc":[function(require,module,exports) {
-module.exports="/08.abf17427.jpg";
+module.exports="08.abf17427.jpg";
 },{}],"WZGT":[function(require,module,exports) {
-module.exports="/09.d26794e6.jpg";
+module.exports="09.d26794e6.jpg";
 },{}],"RfQ4":[function(require,module,exports) {
-module.exports="/10.ac310400.jpg";
+module.exports="10.ac310400.jpg";
 },{}],"ZGvD":[function(require,module,exports) {
-module.exports="/11.3f08dad5.jpg";
+module.exports="11.3f08dad5.jpg";
 },{}],"J7If":[function(require,module,exports) {
-module.exports="/12.a33b63bb.jpg";
+module.exports="12.a33b63bb.jpg";
 },{}],"xPWj":[function(require,module,exports) {
-module.exports="/001.ca740ea0.jpg";
+module.exports="001.ca740ea0.jpg";
 },{}],"hJnh":[function(require,module,exports) {
-module.exports="/002.3e047ff9.jpg";
+module.exports="002.3e047ff9.jpg";
 },{}],"CW2T":[function(require,module,exports) {
-module.exports="/003.947f822f.jpg";
+module.exports="003.947f822f.jpg";
 },{}],"ZbuR":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.places=exports.images=exports.URL=exports.KEY=void 0;var e=_(require("../images/gallery_img/01.jpg")),a=_(require("../images/gallery_img/02.jpg")),i=_(require("../images/gallery_img/03.jpg")),r=_(require("../images/gallery_img/04.jpg")),t=_(require("../images/gallery_img/05.jpg")),l=_(require("../images/gallery_img/06.jpg")),g=_(require("../images/gallery_img/07.jpg")),u=_(require("../images/gallery_img/08.jpg")),m=_(require("../images/gallery_img/09.jpg")),s=_(require("../images/gallery_img/10.jpg")),p=_(require("../images/gallery_img/11.jpg")),n=_(require("../images/gallery_img/12.jpg")),o=_(require("../images/place_img/001.jpg")),d=_(require("../images/place_img/002.jpg")),k=_(require("../images/place_img/003.jpg"));function _(e){return e&&e.__esModule?e:{default:e}}var c=[{img:e.default,name:"Остров Кижи, Карелия",link:"https://kizhi.karelia.ru/"},{img:a.default,name:"Озеро Байкал",link:"https://www.culture.ru/institutes/986/ozero-baikal"},{img:i.default,name:"Долина гейзеров, Камчатка",link:"https://www.vpoxod.ru/page/toponym/dolina_geizerov_info"},{img:r.default,name:"Алтай",link:"https://www.culture.ru/s/altay/"},{img:t.default,name:"Озеро Светлояр",link:"https://tonkosti.ru/Озеро_Светлояр_Нижегородской_области"},{img:l.default,name:"Мань-Пупу-нёр, Коми",link:"https://nashural.ru/dostoprimechatelnosti-urala/respublika-komi/man-pupu-ner/"},{img:g.default,name:"Гора Белуха",link:"https://ru.wikipedia.org/wiki/Белуха_(гора)"},{img:u.default,name:"Плато Путорана",link:"https://www.culture.ru/institutes/5021/plato-putorana"},{img:m.default,name:"Ленские столбы, Якутия",link:"https://lena-pillars.ru/"},{img:s.default,name:"Ключевская сопка, Камчатка",link:"https://kamchatkaland.ru/note/klyuchevskaya-nahoditsja-koordinaty"},{img:p.default,name:"«Таганай», Челябинская область",link:"https://www.taganay.org/about"},{img:n.default,name:"Гора Эльбрус",link:"https://www.culture.ru/institutes/12219/elbrus"}];exports.images=c;var f=[{img:o.default,link:"https://baikalzapovednik.ru",name:"Байкальский заповедник",description:"На территории Байкальского государственного природного биосферного заповедника и его охранной зоны произрастает 1169 видов высших сосудистых растений (по результатам 2022 года), из них 14 видов включены в Красную книгу Российской Федерации (2008) и 49 видов в Красную книгу Республики Бурятия (2013). Реликтов третичного времени насчитывается 30 видов, эндемиков - 15 видов, в том числе эндемик хребта Хамар-Дабан – сверция байкальская, очень красивое растение с темно-фиолетовыми цветами из семейства горечавковых, встречающееся в основном на высокогорных лугах. Здесь произрастает более 90 видов древесных и древесно-кустарниковых растений."},{img:d.default,link:"http://kuz-alatau.ru",name:'"Кузнецкий Алтау"',description:"Кузнецкий Алатау – это горный хребет в Западной Сибири. На его территории располагается туристический район Поднебесные Зубья с множеством троп для пеших походов. А в центральной части находится одноименный заповедник Кузнецкий Алатау.Хребет расположен в Кемеровской области и республике Хакасия. Самая высокая точка – пик Старая Крепость, высота – 2219 метров. В Кемеровской области выше всех расположился Верхний Зуб (2178 метров)"},{img:k.default,link:"https://pt-zapovednik.ru",name:"Приокско-Террасный заповедник",description:"Единственный заповедник Московской области находится всего в 100 километрах от Красной площади. Он расположен на террасах левого берега реки Оки, покрытых сосновыми и смешанными лесами. В заповеднике произрастает 913 видов сосудистых растений. На его уникальной территории можно встретить как характерные для северных районов болота с росянкой и клюквой, так и участки с более южной, степной растительностью."}];exports.places=f;var h="https://apidata.mos.ru/v1";exports.URL=h;var w="9257f3f034b18af617ccc0ec1c2703ae";exports.KEY=w;
 },{"../images/gallery_img/01.jpg":"iwj1","../images/gallery_img/02.jpg":"O0hk","../images/gallery_img/03.jpg":"UkSw","../images/gallery_img/04.jpg":"eMnO","../images/gallery_img/05.jpg":"YouM","../images/gallery_img/06.jpg":"h7dX","../images/gallery_img/07.jpg":"WfO4","../images/gallery_img/08.jpg":"Gdzc","../images/gallery_img/09.jpg":"WZGT","../images/gallery_img/10.jpg":"RfQ4","../images/gallery_img/11.jpg":"ZGvD","../images/gallery_img/12.jpg":"J7If","../images/place_img/001.jpg":"xPWj","../images/place_img/002.jpg":"hJnh","../images/place_img/003.jpg":"CW2T"}],"Q4z6":[function(require,module,exports) {
@@ -292,4 +292,3 @@ var e=require("process");Object.defineProperty(exports,"__esModule",{value:!0}),
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=n(require("react")),r=require("./components/App/App");require("./styles/styles.scss");var t=require("react-dom/client"),u=n(require("./contexts/ThemeProvider"));function n(e){return e&&e.__esModule?e:{default:e}}var o=document.getElementById("root"),s=(0,t.createRoot)(o);s.render(e.default.createElement(r.App,null));
 },{"react":"n8MK","./components/App/App":"IbEZ","./styles/styles.scss":"Hyr9","react-dom/client":"NdAl","./contexts/ThemeProvider":"lAFt"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.26e1e7ae.js.map
