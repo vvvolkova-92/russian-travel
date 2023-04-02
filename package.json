@@ -2,7 +2,7 @@
   "name": "Путешествие по России",
   "version": "1.0.0",
   "description": "![Немного главной страницы](/images/readme.jpg)",
-  "homepage": "https://vvvolkova-92.github.io/russian-travel/",
+  "homepage": "https://vvvolkova-92.github.io/russian-travel",
   "main": "index.js",
   "keywords": [],
   "author": "",
@@ -32,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saiviolet/russian-travel.git"
+    "url": "git+https://github.com/vvvolkova-92/russian-travel.git"
   },
   "bugs": {
-    "url": "https://github.com/saiviolet/russian-travel/issues"
+    "url": "https://github.com/vvvolkova-92/russian-travel/issues"
   }
 }
